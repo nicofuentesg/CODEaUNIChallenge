@@ -21,7 +21,7 @@ export const ButtomSheetContent: React.FC<BottomSheetContentProps> = ({
 }) => {
   const theme = useColorScheme();
   const isDarkTheme = theme === 'dark';
-
+  console.log('ola');
   return (
     <ScrollView
       style={[
